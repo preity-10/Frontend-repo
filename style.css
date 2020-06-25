@@ -136,21 +136,21 @@ body{
 }
 
 .glyphicon-home {
-      background: url("C:/Priti html/icons/icons-1.0.0-alpha4/icons/house-door-fill.svg") no-repeat;
+      background: url("./icon folder/house-door-fill.svg") no-repeat;
 
   }
 
 .glyphicon-info-sign {
-    background: url("C:/Priti html/icons/icons-1.0.0-alpha4/icons/info-circle-fill.svg") no-repeat;
+    background: url("./icon folder/info-circle-fill.svg") no-repeat;
 }
 
 .glyphicon-art {
-    background: url("C:/Priti html/icons/icons-1.0.0-alpha4/icons/book.svg") no-repeat;
+    background: url("./icon folder/book.svg") no-repeat;
     margin-left: 25px;
   }
 
 .btn .glyphicon-earphone a{
-  background: url("C:/Priti html/icons/icons-1.0.0-alpha4/icons/phone.svg") no-repeat;
+  background: url("./phone.svg") no-repeat;
 }
 
 /* end header */
