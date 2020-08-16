@@ -14,6 +14,49 @@
 
 </head>
 <body>
+
+
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
+
+      <label for="nav-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="index.html" class="navigation__link">
+              <span>01</span>
+              Home
+            </a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="./Awaias_mawamp_about.html" class="navigation__link">
+              <span>02</span>
+              About
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="./Awaias_mawamp_gallery.html" class="navigation__link">
+              <span>03</span>
+              Art-Gallery
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="tel:110-111-1122" class="navigation__link">
+              <span>04</span>
+              Contact-Us
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
@@ -23,50 +66,18 @@
             <div id="logo-img" alt="Logo image"></div>
           </a>
 
-          <div class="navbar-brand">
+          <div class="navbar-brand heading-secondary ">
             <a href="index.html"><h1>Awaias mawamp</h1></a>
             <p>
               <span> my artworks</span>
             </p>
           </div>
-
-          <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class =" navbar-toggler-icon"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
         </div>
-
-        <div id="collapsable-nav" > <!class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav mr-auto navbar-right hidden-xs">
-            <li class="nav-item">
-              <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home </a>
-
-            </li>
-            <li class="nav-item">
-              <a href="./Awaias_mawamp_about.html">
-                <span class="glyphicon glyphicon-info-sign"></span>
-                <br class="hidden-xs" >About </a>
-            </li>
-            <li class="nav-item">
-              <a href="./Awaias_mawamp_gallery.html">
-                <span class="glyphicon glyphicon-art"></span>
-                <br class="hidden-xs" >Art-gallery</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:110-111-1122">
-                <span>110-111-1122</span><div>*contact us</div></a>
-            </li>
-          </ul>
-        </div>
-
       </div>
     </nav>
   </header>
 
-  <div id="call-btn" class="visible-xs">
+  <div id="call-btn" class="visible-xs feature-box">
     <a class="btn" href="tel:110-111-1122">
     <span class="glyphicon glyphicon-earphone"></span>
     110-111-1122
@@ -75,10 +86,10 @@
   <div id="xs-deliver" class="text-center visible-xs">*contact us</div>
 
   <div id="main-content" class"container">
-    <h2 id="gallery-category" class="text-center">Pen-Sketches</h2>
+    <h2 id="gallery-category" class=" heading-secondary text-center">Pen-Sketches</h2>
 
     <section class="row">
-      <div class="gallery-item-tile col-md-6">
+      <div class="gallery-item-tile col-md-6 feature-box">
         <div class="row">
           <div class="col-sm-5">
             <div class="gallery-item-photo">
@@ -98,7 +109,7 @@
         <hr class="visible-xs">
       </div>
 
-      <div class="gallery-item-tile col-md-6">
+      <div class="gallery-item-tile col-md-6 feature-box">
         <div class="row">
           <div class="col-sm-5">
             <div class="gallery-item-photo">
@@ -118,7 +129,7 @@
         <hr class="visible-xs">
       </div>
 
-      <div class="gallery-item-tile col-md-6">
+      <div class="gallery-item-tile col-md-6 feature-box">
         <div class="row">
           <div class="col-sm-5">
             <div class="gallery-item-photo">
