@@ -73,22 +73,6 @@ h2{
           0 10px 10px 15px rgba(255, 255, 255, 0.1) inset;
 }
 
-#field{
-  background-color: #ffd54f;
-  font-size: 1.1em;
-  margin: 5px 5px 5px 5px;
-  padding: 8px 10px 25px 20px;
-  border: 1px solid #ad1457;
-  border-radius: .85rem;
-  box-shadow: 0 1px 1px 1px #c2185b;
-  text-shadow: 0.1px 0.1px 0.1px #222;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd54f), to(#ef6c00));
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0,0,0,0.5),
-   0 3px 0 #373737, 0 4px 0 rgba(0,0,0,0.5), 0 6px 0 #373737,
-   0 7px 0 rgba(0,0,0,0.5), 0 -10px 5px 10px rgba(0, 0, 0, 0.3) inset,
-  0 10px 10px 15px rgba(255, 255, 255, 0.1) inset;
-
-}
 
  #option{
   -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5) inset, 0 2px 2px 2px #1F1F1F inset;
@@ -106,9 +90,19 @@ h2{
 }
 
 #header-nav{
-  background-color: #0097a7;/*#839422;*/
+  background-color: #28b485;/*#0097a7;*/
   border-radius:0;
   border: 0;
+  margin: 5px 5px 10px 5px;
+  padding: 8px 10px 25px 20px;
+  border: 1px solid #ad1457;
+  border-radius: .85rem;
+  box-shadow: 0 1px 1px 1px #c2185b;
+  text-shadow: 0.1px 0.1px 0.1px #222;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0,0,0,0.5),
+   0 3px 0 #373737, 0 4px 0 rgba(0,0,0,0.5), 0 6px 0 #373737,
+   0 7px 0 rgba(0,0,0,0.5), 0 -10px 5px 10px rgba(0, 0, 0, 0.3) inset,
+  0 10px 10px 15px rgba(255, 255, 255, 0.1) inset;
 }
 
 #logo-img{
@@ -177,11 +171,18 @@ HOME TILES
 .feature-box {
   /*background-color: rgba(255, 255, 255, 0.8);*/
   font-size: 1.1rem;
-  padding: 2.5rem;
+  /*margin: 10px 30px 10px 40px;*/
+  padding: 25px 5px 25px 20px;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 30px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  transition: all .3s;}
+  transition: all .3s;
+  text-shadow: 0.1px 0.1px 0.1px #222;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#80DEEA), to(#F06292));
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0,0,0,0.5),
+   0 3px 0 #373737, 0 4px 0 rgba(0,0,0,0.5), 0 6px 0 #373737,
+   0 7px 0 rgba(0,0,0,0.5), 0 -10px 5px 10px rgba(0, 0, 0, 0.3) inset,
+  0 10px 10px 15px rgba(255, 255, 255, 0.1) inset;}
   @media (max-width: 56.25em) {
     .feature-box {
       padding: 2rem; } }
@@ -192,12 +193,17 @@ HOME TILES
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent; }
+    color: transparent;
+   }
     @media (max-width: 56.25em) {
       .feature-box__icon {
         margin-bottom: 0; } }
   .feature-box:hover {
-    transform: translateY(-1.5rem) scale(1.03); }
+    transform: translateY(-1.5rem) scale(1.03);
+
+
+
+   }
 
 /* END HOME TILES feature*/
 
@@ -400,6 +406,16 @@ SVG Icons - svgicons.sparkk.fr
   background-position: center;
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
+  margin: 5px 5px 5px 5px;
+  padding: 8px 10px 25px 20px;
+  border: 1px solid #ad1457;
+  border-radius: .85rem;
+  box-shadow: 0 1px 1px 1px #c2185b;
+  text-shadow: 0.1px 0.1px 0.1px #222;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0,0,0,0.5),
+   0 3px 0 #373737, 0 4px 0 rgba(0,0,0,0.5), 0 6px 0 #373737,
+   0 7px 0 rgba(0,0,0,0.5), 0 -10px 5px 10px rgba(0, 0, 0, 0.3) inset,
+  0 10px 10px 15px rgba(255, 255, 255, 0.1) inset;
 }
 
 #about-tile, #art-tile, #sign-tile{
@@ -587,6 +603,16 @@ h3.gallery-item-title{
     background: url("./46f94652-2d73-4493-aa8f-61517a61f4c2.png") no-repeat;
     height : 1200px;
     background-position: center;
+    margin: 5px 5px 5px 5px;
+    padding: 8px 10px 25px 20px;
+    border: 1px solid #ad1457;
+    border-radius: .85rem;
+    box-shadow: 0 1px 1px 1px #c2185b;
+    text-shadow: 0.1px 0.1px 0.1px #222;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0,0,0,0.5),
+     0 3px 0 #373737, 0 4px 0 rgba(0,0,0,0.5), 0 6px 0 #373737,
+     0 7px 0 rgba(0,0,0,0.5), 0 -10px 5px 10px rgba(0, 0, 0, 0.3) inset,
+    0 10px 10px 15px rgba(255, 255, 255, 0.1) inset;
   }
   #call-btn, #xs-deliver{
     display:none;
@@ -693,6 +719,16 @@ h3.gallery-item-title{
   background: url("./f4b482e4-2857-4a63-97bd-96b3282cbbb9.png") no-repeat;
     height : 360px;
     background-position: center;
+    margin: 5px 5px 5px 5px;
+    padding: 8px 10px 25px 20px;
+    border: 1px solid #ad1457;
+    border-radius: .85rem;
+    box-shadow: 0 1px 1px 1px #c2185b;
+    text-shadow: 0.1px 0.1px 0.1px #222;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0,0,0,0.5),
+     0 3px 0 #373737, 0 4px 0 rgba(0,0,0,0.5), 0 6px 0 #373737,
+     0 7px 0 rgba(0,0,0,0.5), 0 -10px 5px 10px rgba(0, 0, 0, 0.3) inset,
+    0 10px 10px 15px rgba(255, 255, 255, 0.1) inset;
   }
 
   /**footer***/
